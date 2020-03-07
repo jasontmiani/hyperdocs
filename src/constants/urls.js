@@ -1,6 +1,9 @@
+
 const urls = {
   '.net': 'https://docs.microsoft.com/en-us/dotnet/',
   angular: 'https://angular.io/docs/ts/latest/',
+  antd: 'https://ant.design/docs/react/introduce',
+  antDesign: `${() => urls.antd}`,
   bash: 'https://www.gnu.org/software/bash/manual/bash.html',
   c: 'http://devdocs.io/c/',
   capistrano: 'https://github.com/capistrano/capistrano/tree/master/docs',
@@ -11,14 +14,19 @@ const urls = {
   css: 'http://cssreference.io/',
   cucumber: 'https://cucumber.io/docs',
   django: 'https://docs.djangoproject.com/en/1.11/',
+  docker: 'https://docs.docker.com/',
   elixir: 'http://elixir-lang.org/docs.html',
   elm: 'http://elm-lang.org/docs',
   ember: 'https://emberjs.com/api/ember/release',
   express: 'https://expressjs.com/en/api.html',
+  gatsby: 'https://www.gatsbyjs.org/docs/',
   git: 'https://git-scm.com/docs',
+  github: 'https://developer.github.com/',
   go: 'https://golang.org/doc/',
   java: 'https://docs.oracle.com/javase/7/docs/api/',
   laravel: 'https://laravel.com/docs/5.4/installation',
+  microsoft: 'https://docs.microsoft.com/en-us/',
+  netlify: 'https://docs.netlify.com/',
   node: 'https://nodejs.org/en/docs/',
   phoenix: 'https://hexdocs.pm/phoenix/Phoenix.html',
   php: 'http://php.net/docs.php',
@@ -35,6 +43,7 @@ const urls = {
   scala: 'http://docs.scala-lang.org/',
   symfony: 'http://symfony.com/doc/current/index.html',
   typescript: 'https://www.typescriptlang.org/docs/tutorial.html',
+  vscode: 'https://code.visualstudio.com/docs',
 }
 
 export default urls
